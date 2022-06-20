@@ -1,0 +1,135 @@
+html {
+  min-width: 1700px;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(36, 35, 34);
+}
+
+header{
+  background-color: rgb(36, 35, 34);
+  color: rgb(255, 255, 255);
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-family: 'Handlee', cursive;
+  font-size: 40px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+
+
+.modal-title {
+  margin-left: 15vw;
+  color: white;
+  margin-bottom: 30px;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.modal-dialog {
+  display: flex;
+  flex-direction: row;
+  margin: 0 15vw;
+}
+
+.modal-content {
+  /* background-color: tomato; */
+  width: auto;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.back {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+#pic_info-div {
+  /* background-color: wheat; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+
+}
+
+.save_btn {
+  width: 80px;
+  height: 35px;
+  background-color: rgb(85, 170, 255);
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+  border:none;
+  box-shadow: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#revise_gallery_form {
+  width: 100%;
+}
+
+.info {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.info > p, label {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 10px;
+  background-color: rgb(93, 113, 150);
+  display:inline-block;
+  padding: 5px 15px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+#gallery_description {
+  width: 90%;
+  height: 400px;
+  resize: none;
+  outline: none;
+  font-size: 1.2rem;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+#modal_okay_btn {
+  margin-left: 10px;
+}
+
+.info > input {
+  font-size: 1.2rem;
+  outline: none;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+hr {
+  margin: 0 2vw;
+}
+
+#gallery_visable, #gallery_metaverse {
+  width: 25px; /*Desired width*/
+  height: 25px; /*Desired height*/
+  cursor: pointer;
+}
+
+.subject_select {
+  width: 100px;
+  height: 30px;
+}
+

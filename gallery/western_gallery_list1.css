@@ -1,0 +1,163 @@
+html {
+  min-width: 1400px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+
+aside {
+  /* background-color: rgb(245, 245, 245); */
+  width: 400px;
+  margin-left: 10vw;
+}
+
+
+.gallery-list {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.o_gallery-content {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+#oriental_gallery_list {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(240, 240, 240); */
+  width: 100%;
+  margin-right: 10vw;;
+  margin-left: 40px;
+  overflow: hidden;
+}
+
+hr {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#contents {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#contents a{
+  color:rgb(97, 151, 253);
+}
+
+#contents a:hover{
+  color:rgb(36, 113, 255);
+}
+
+#contents p {
+  margin-top: 20px;
+}
+
+.gallery-list {
+  background-color: rgb(37, 32, 26);
+  font-size: 20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color:rgb(255, 255, 255);
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#s_gallery-list > li > a {
+  color:rgb(255, 255, 255)
+}
+
+#s_gallery-list > li:nth-child(1) > a {
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+}
+
+#s_gallery-list > li {
+  display: flex;
+  align-items: center;
+  background-color: rgb(185, 185, 185);
+  height: 30px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#s_gallery-list > li:nth-child(2) {
+  background-color: rgb(129, 172, 252);
+}
+
+#s_gallery-list > li:nth-child(1):hover {
+  background-color: rgb(36, 113, 255);
+}
+
+#s_gallery-list > li:nth-child(2):hover {
+  background-color: rgb(36, 113, 255);
+}
+
+#s_gallery-list > li:nth-child(3):hover {
+  background-color: rgb(36, 113, 255);
+}
+
+
+#oriental_gallery_list > h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(129, 172, 252);
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  
+  
+  animation-name: drop;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#contents a {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@-webkit-keyframes drop {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes drop {
+  from {
+    transform: translateX(-400px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+
+
+

@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+}
+
+html {
+  min-width: 1700px;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(37, 32, 26);
+}
+
+main {
+  margin: 0 10vw;
+}
+
+#title2 {
+  font-family: 'Handlee', cursive;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+header{
+  background-color: rgb(37, 32, 26);
+  color: rgb(255, 255, 255);
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: rgb(196, 173, 145); */
+}
+
+#delete_form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#delete_form > h1 {
+  color: white;
+}
+
+#delete-btn {
+  width: 80px;
+  height: 35px;
+  background-color: rgb(85, 170, 255);
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+  border:none;
+  box-shadow: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+#backImg {
+  width: 100%;
+  height: auto;
+  padding: 0 20vw;
+  box-sizing: border-box;
+  margin: 20px 0;
+}
+
+.modal-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.back {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#modal_okay_btn {
+  margin-left: 10px;
+}
+
+.save_btn {
+  width: 80px;
+  height: 35px;
+  background-color: rgb(85, 170, 255);
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+  border:none;
+  box-shadow: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#pic_info-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 251, 240);
+  margin: 5vh 10vw 10vh 10vw;
+}
+
+#save_img_form {
+  width: 100%;
+}
+
+#pic_title_div > p, #pic_content_div > p {
+  color: rgb(68, 68, 68);
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+
+#pic_title_div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+#pic_title_div > input {
+  width: 100%;
+  
+}
+
+#pic_content_div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+#title {
+  font-size: 2rem;
+  outline: none;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+#content {
+  width: 100%;
+  height: 600px;
+  outline: none;
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: 1rem;
+  resize: none;
+}
+
+#btn-div {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}

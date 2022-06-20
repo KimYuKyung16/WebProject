@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: rgb(186, 218, 199);
+}
+
+#user_div{
+    background-color: rgb(240, 240, 240);
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 10px double;
+    border-color: rgb(117, 141, 121);
+}

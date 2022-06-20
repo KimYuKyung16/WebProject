@@ -1,0 +1,144 @@
+body {
+  background-color:  rgb(36, 35, 34);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 15vw;
+  margin-top: 20px;
+}
+
+#user_list, #metaverse_list {
+  width: 34vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#user_list > h2, #metaverse_list > h2 {
+  margin-bottom: 20px;
+  color: white;
+  background-color: rgb(127, 166, 238);
+  padding: 10px 50px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+ /* {
+  width: 34vw;
+} */
+
+
+#user_list_table, #metaverse_list_table {
+  width: 100%;
+  border : 1px solid rgb(0, 0, 0);
+  border-collapse : collapse;
+  background-color: rgb(224, 224, 224);
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+#user_list_table {
+  margin-bottom: 10vh;
+}
+
+#user_id {
+  width:20%;
+}
+
+#gallery_name {
+  width: 50%;
+}
+
+#exhibition_period, #metaverse {
+  width: 22%;
+  color:rgb(255, 85, 85);
+  font-weight: bold;
+}
+
+#btn {
+  width: 8%;
+}
+
+td {
+  border: 1px solid #444444;
+  font-size: 15px;
+  padding: 15px 20px;
+  text-align: center;
+ 
+}
+
+
+#delete_btn, #submit_btn {
+  width: 70px;
+  height: 35px;
+  background-color: rgb(255, 85, 85);
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+  border:none;
+  box-shadow: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.table_head > td {
+  font-weight: bold;
+  background-color: rgb(127, 166, 238);
+  text-align: center;
+  font-size: 20px;
+  color: #444444;
+}
+
+.table_head1 > td {
+  font-weight: bold;
+  background-color: rgb(255, 194, 194);
+  text-align: center;
+  font-size: 20px;
+  color: #444444;
+}
+
+
+#metaverse_link {
+  margin-top: 20px;
+  width: 100%;
+}
+
+#metaverse_link_table {
+  width: 100%;
+  border : 1px solid rgb(0, 0, 0);
+  border-collapse : collapse;
+  background-color: rgb(224, 224, 224);
+  font-family: 'Do Hyeon', sans-serif;
+  margin-top: 10vh;
+}
+
+.metaverse_list1 {
+  width: 30%;
+}
+
+#user, #link {
+  width: 100%;
+  padding: 10px;
+  box-sizing : border-box;
+}
+
+#metaverse_link_table > tr:nth-child(1) {
+  background-color: wheat;
+}
+
+.table_body1 {
+  width: 20%;
+}
+
+.table_body2 {
+  /* width: 20%; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#submit_btn {
+  margin-left: 10px;
+}
+

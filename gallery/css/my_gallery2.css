@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+}
+
+html {
+    min-width: 1700px;
+    font-size: 16px;
+}
+
+body{
+
+    background-color: rgb(219, 205, 189);
+}
+
+header{
+    background-color: rgb(37, 32, 26);
+    color: rgb(255, 255, 255);
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-family: 'Handlee', cursive;
+    font-size: 40px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
+main{
+    display: flex;
+    background-color: rgb(37, 32, 26);
+}
+
+#left_div{
+    width: 30%;  
+    /* background-color: rgb(160, 160, 160); */
+    display: flex; 
+    flex-direction: column;
+    padding-left: 50px;
+    color: white;
+}
+
+#right_div{
+    width: 70%;
+    background-color: rgb(37, 32, 26); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#right_div > h1{
+    margin-left: 60px;
+    color: rgb(223, 223, 223);
+}
+
+#picture-table{
+    border-collapse: separate;
+    border-spacing: 30px 30px;
+}
+
+
+
+.picture {
+    color: white;
+    text-align: center;
+}
+
+.picture > p {
+    margin-top: 10px;
+}
+
+.image {
+    width: 270px;
+    height: 350px;
+}
+
+#left_div > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 15px 0;
+}
+
+#left_div > div > label {
+    background-color: rgb(93, 113, 150);
+    display:inline-block;
+    padding: 5px 15px;
+    font-family: 'Do Hyeon', sans-serif;
+    margin-right: 10px;
+}
+
+#gallery_name_div > p:nth-child(1), #gallery_subject_div > p:nth-child(1) {
+    background-color: rgb(93, 113, 150);
+    display:inline-block;
+    padding: 5px 15px;
+    font-family: 'Do Hyeon', sans-serif;
+    margin-right: 10px;
+}
+
+#thumbnail_name {
+    background-color: rgb(93, 113, 150);
+    width: 100px;
+    padding: 5px 15px;
+    font-family: 'Do Hyeon', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#thumbnail {
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+#gallery_name, #gallery_subject, #exhibition_period, #gallery_metaverse_link {
+    font-weight: bold;
+}
+
+#gallery_visable, #gallery_metaverse {
+    width: 25px; /*Desired width*/
+    height: 25px; /*Desired height*/
+}
+
+h2 {
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: rgb(127, 166, 238);
+    padding: 10px 20px;
+    width: 200px;
+    color:rgb(7, 7, 7);
+}
+
+#gallery_title {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gallery_revise {
+    width: 80px;
+    height: 35px;
+    background-color: rgb(85, 170, 255);
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    border:none;
+    box-shadow: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

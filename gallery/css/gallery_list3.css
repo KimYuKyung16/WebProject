@@ -1,0 +1,208 @@
+html {
+  min-width: 1700px;
+}
+
+#oriental_gallery_list_div {
+  background-color: rgb(182, 182, 182);
+  background-image: linear-gradient( rgba(126, 126, 126, 0.8), rgba(143, 143, 143, 0.8) ), url("../image/o_background.jpg");
+  background-size: cover;
+}
+
+#western_gallery_list_div {
+  background-color: rgb(182, 182, 182);
+  background-image: linear-gradient( rgba(126, 126, 126, 0.6), rgba(143, 143, 143, 0.6) ), url("../image/ww_background.jpg");
+  background-size: cover;
+}
+
+#photo_gallery_list_div {
+  background-color: rgb(182, 182, 182);
+  background-image: linear-gradient( rgba(126, 126, 126, 0.6), rgba(143, 143, 143, 0.6) ), url("../image/p_background.jpg");
+  background-size: cover;
+}
+
+#oriental_gallery_list_div1, #western_gallery_list_div1, #photo_gallery_list_div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+  /* background-color: rgb(182, 182, 182);
+  background-image: linear-gradient( rgba(126, 126, 126, 0.8), rgba(143, 143, 143, 0.8) ), url("../image/o_background.jpg");
+  background-size: cover; */
+  height: auto;
+  padding: 50px 0px 0px 0px;
+}
+
+.oriental_gallery_list-table, .western_gallery_list-table, .photo_gallery_list-table {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  padding: 40px 0px 0px 0px;
+  justify-content: space-between;
+  width: 1200px; 
+}
+
+.o_galllery_list_img, .w_galllery_list_img, .p_galllery_list_img  {
+  width: 250px;
+  height: 250px;
+}
+
+
+#oriental_gallery_list_div2, #photo_gallery_list_div2 {
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: seagreen; */
+  padding-bottom: 30px;
+  margin-right: 15vw;
+}
+
+#western_gallery_list_div2 {
+  display: flex;
+  justify-content: flex-start;
+  /* background-color: seagreen; */
+  padding-bottom: 30px;
+  margin-left: 15vw;
+}
+
+#oriental_gallery_list_div2 > a, #western_gallery_list_div2 > a, #photo_gallery_list_div2 > a {
+  color: aliceblue;
+  margin-left: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
+#oriental_gallery_list_div2 > a > img, #western_gallery_list_div2 > a > img, #photo_gallery_list_div2 > a > img{
+  margin-right: 10px;
+}
+
+
+#oriental_gallery_list_div2 > a:hover > img, #western_gallery_list_div2 > a:hover > img, #photo_gallery_list_div2 > a:hover > img {
+  animation-name: arrow;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+#oriental_gallery_list_div2 > a:hover, #western_gallery_list_div2 > a:hover, #photo_gallery_list_div2 > a:hover {
+  cursor: pointer;
+  color: rgb(166, 197, 255);
+  font-weight: bold;
+  font-size: x-large;
+}
+
+
+@-webkit-keyframes arrow {
+  0% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes arrow {
+  from {
+    transform: translateX(-20PX);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+
+@keyframes rainbowLink {     
+
+  0% { color: #ff2a2a; }
+
+  15% { color: #ff7a2a; }
+
+  30% { color: #ffc52a; }
+
+  45% { color: #43ff2a; }
+
+  60% { color: #2a89ff; }
+
+  75% { color: #202082; }
+
+  90% { color: #6b2aff; } 
+
+ 100% { color: #e82aff; }
+
+}
+
+
+
+
+
+
+
+#oriental_title, #western_title, #photo_title {
+  writing-mode: vertical-rl;
+  /* margin-left: 15vw; */
+  font-size: 50px;
+  text-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+#western_title {
+  color:rgb(70, 168, 132);
+}
+
+#photo_title {
+  color:rgb(134, 197, 212);
+}
+
+
+.title_desc {
+  writing-mode: vertical-rl;
+  color: rgb(255, 255, 255);
+}
+
+#w_title_dec {
+  margin-left: 50px;;
+}
+
+
+.o_galllery_list_img, .w_galllery_list_img, .p_galllery_list_img {
+  /* filter: grayscale(100%); */
+  filter: brightness(70%);
+  box-shadow: 0px 0px 30px 10px rgb(73, 73, 73);
+  border-radius: 10px;
+}
+
+#o_img1:hover, #w_img1:hover, #p_img1:hover {
+  filter: grayscale(0%);
+  transform: translateY(-10px);
+}
+
+#o_img2:hover, #w_img2:hover, #p_img2:hover {
+  filter: grayscale(0%);
+  transform: translateY(-10px);
+}
+
+#o_img3:hover, #w_img3:hover, #p_img3:hover {
+  filter: grayscale(0%);
+  transform: translateY(-10px);
+}
+
+#o_img4:hover, #w_img4:hover, #p_img4:hover {
+  filter: grayscale(0%);
+  transform: translateY(-10px);
+}
+
+/* p{
+  margin-top: 10vh;
+} */
+
+
+
+
+
+/* #western_gallery_list_div {
+  background-color: rgb(182, 182, 182);
+  background-image: linear-gradient( rgba(126, 126, 126, 0.8), rgba(143, 143, 143, 0.8) ), url("../image/w_background.jpg");
+
+  background-size: cover;
+  height: auto;
+  padding: 50px 0px 120px 0px;
+} */

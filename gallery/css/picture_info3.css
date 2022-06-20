@@ -1,0 +1,174 @@
+html {
+  min-width: 1400px;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(36, 35, 34);
+}
+
+main {
+  margin: 0 10vw;
+  /* box-sizing : border-box;  */
+}
+
+#pic_title-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#gallery_name {
+  background-color: rgb(177, 177, 177);
+  padding: 10px 50px;
+  color: white;
+  margin: 30px 0;
+}
+
+
+#pic_title-div > p {
+  /* background-color: rgb(82, 143, 255); */
+  padding: 10px 20px;
+  color: white;
+  font-size: 2em;
+  /* font-weight: bold; */
+  font-family: 'Do Hyeon', sans-serif;
+  
+  /* width: 100%; */
+}
+
+
+#picture-div {
+  /* position: relative; */
+  /* box-sizing : border-box; */
+  /* margin: 0 10vw; */
+  padding: 0 20vw;
+}
+
+#picture-div > img:nth-child(1) {
+  width: 100%;
+  height: auto;
+  box-sizing : border-box;
+  margin: 20px 0;
+}
+
+/* #picture-div > img:nth-child(2) {
+  width: 500px;
+  height: auto;
+  box-sizing : border-box;
+} */
+
+#content-div {
+  background-color: rgb(255, 251, 240);
+  margin: 0 10vw;
+  height: 500px;
+  margin-bottom: 30px;
+  padding: 50px;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 1.5rem;
+  color: rgb(68, 68, 68);
+}
+
+
+#content {
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  margin-top: 10px;
+  resize: none;
+  font-family: 'Gowun Dodum', sans-serif;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+
+  body {
+    overflow-x: hidden;
+  }
+
+  main {
+    margin: 0;
+    width: 100vw;
+  }
+
+  #gallery_name {
+    width: 100%;
+  }
+
+  #picture-div {
+    padding: 10%;
+    /* padding: 0; */
+    /* width: 100vw; */
+    /* height: auto; */
+    text-align: center;
+  }
+
+
+  #navbar {
+    width: 100vw;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+  } 
+
+  #navbar_menu{
+      /* display: none; */
+      flex-direction: column;
+      /* width: 100%; */
+      align-items: center;
+      justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  #title {
+    padding: 0;
+    padding-top: 10px;
+  }
+ 
+  #navbar_menu_list {
+    list-style: none;
+    margin: 0;
+  }
+
+  /* #navbar_menu li{
+    width: 100%;
+    text-align: center;
+    list-style: none;
+  } */
+/* 
+  .navbar_icons{
+      display: none;
+      justify-content: center;
+      width: 100%;
+  }
+
+  .navbar_togglebBtn{
+      display: block;
+  }
+
+  .navbar_logo{
+      display: none;
+  }
+
+  .main_title{
+      font-size: 15px;
+      padding: 20px;
+  }
+
+  .navbar_menu.active,
+  .navbar_icons.active{
+      display: flex;
+  } */
+}

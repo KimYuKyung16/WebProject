@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+/* vw, vh는 뷰표트의 길이에 영향 (뷰포트의 길이는 본인의 기기 화면)*/
+
+body{
+    width: 100vw; 
+    height: 100vh; 
+    background-color: rgb(36, 35, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#main{
+    background-color: rgb(36, 35, 34);
+    width: 100vw; 
+    height: 100vh; 
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    /* width: 100%;
+    height: 100%; */
+    position: relative;
+    /* position: absolute;
+    left: 250px;
+    top: 100px; */
+    /* font-family: sans-serif; */
+    /* animation: ticket_ani 2s; */
+}
+
+#welcome{
+    position:absolute;
+    top: 15vh;
+    font-size: 2rem;
+    font-weight: bold;
+    color:white;
+}
+
+#description{
+    position:absolute;
+    top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+
+#ticket_machine{
+    width: 300px;
+    height: 350px;
+    position: absolute;
+}
+
+#ticket_btn{
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    margin-bottom: 50px;
+    background-color: rgb(117, 13, 13);
+    color: white;
+    font-weight: bold;
+}
+
+
+#ticket{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 55px;
+    /* animation: ticket_ani 2s forwards; */
+
+}
+
+/* 첫 번째 요소를 뒤따르면서 같은 부모를 공유하는 두 번째 요소를 선택 */
+/* #ticket_machine:hover ~#ticket{
+    animation: ticket_ani 2s forwards;
+} */
+
+
+@keyframes ticket_ani {
+    from{ margin-top: 220px; }
+    to{ margin-top: 300px;}
+}
+
+@-webkit-keyframes ticket_ani {
+    from{ margin-top: 220px; }
+    to{ margin-top: 300px; }
+}
+
+
+
+@keyframes fadeIn{
+    from{  opacity: 1; }
+    to{  opacity: 0; }
+
+}
+
+@-webkit-keyframes fadeIn{
+    from{  opacity: 1; }
+    to{  opacity: 0; }
+}

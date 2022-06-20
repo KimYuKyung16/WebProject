@@ -1,0 +1,13 @@
+body{
+  background-color: rgb(186, 218, 199);
+}
+
+h1{
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  margin-top: 300px;
+}
+

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+header{
+    background-color: rgb(68, 54, 39);
+    color: rgb(255, 255, 255);
+    height: 150px;
+}
+
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    background-color: rgb(68, 54, 39);
+    padding: 30px 0px;
+}
+
+
+#navbar_menu{
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+}
+
+#navbar_menu a{
+    padding: 10px 50px;
+    color: rgb(158, 158, 158);
+    font-weight: 700;
+    text-decoration-line: none;
+}
+
+#navbar_menu a:hover{
+    background-color: rgb(158, 149, 101);
+    border-radius: 4px;
+    color:rgb(36, 113, 255);
+}
+
+#banner{
+    background-color: blueviolet;
+}
+
+#gallery_list{
+    background-color: rgb(218, 218, 218);
+}

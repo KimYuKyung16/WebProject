@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  background-color: rgb(185, 199, 193);
+  align-items: center;
+  /* height: 1000px; */
+  flex-direction: column;
+  /* padding: 10px; */
+  padding-top: 20px;
+}
+
+#board_title {
+  text-align: left;
+  width: 70vw;
+}
+
+#write_list {
+  width: 70vw;
+  /* background-color: rgb(182, 182, 182); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+#title-li1 {
+  height: 60px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#title-li1 input {
+  height: 100%;
+  width: 100%;
+  font-size:20px;
+}
+
+
+#board-li2 {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  /* background-color: rgb(202, 202, 202); */
+}
+
+
+#content-li3 {
+  height: 600px;
+  width: 100%;
+}
+
+#content-li3 textarea {
+  width:100%;
+  height:700px;
+  font-size:20px;
+  border: none;
+}
+
+#content-li3 div {
+  text-align: right;
+}
+
+#save_btn {
+  width: 200px;
+  height: 40px;
+  margin: 20px 10px 0px 0px;
+}
+
+#user_info_list {
+  display: flex;
+  flex-direction: row;
+  color: rgb(80, 80, 80);
+  /* font-weight: bold; */
+}
+
+#user_info_list > div{
+  display: flex;
+  flex-direction: row;
+}
+
+#user_info_list > li{
+  margin-right: 15px;
+}
+
+#user_info_list > div > li{
+  margin-right: 5px;
+}
+
+
+
+input:focus {
+  outline: none;
+}
+textarea:focus {
+  outline: none;
+}
+
+
+li {
+  list-style: none;
+}
+
